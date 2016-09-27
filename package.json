@@ -1,0 +1,35 @@
+{
+    "name": "openpdv_api",
+    "version": "0.0.6",
+    "description": "It is an API for OpenPDV, an opensource PDV system (POS or Post of Sales in english).",
+    "main": "app.js",
+    "scripts": {
+        "test": "nodejs app.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/renatonolo/OpenPDV-API.git"
+    },
+    "keywords": [
+        "pdv",
+        "pos",
+        "ponto",
+        "de",
+        "venda",
+        "point",
+        "of",
+        "sales"
+    ],
+    "author": "Renato N. Lourenço",
+    "license": "Apache-2.0",
+    "bugs": {
+        "url": "https://github.com/renatonolo/OpenPDV-API/issues"
+    },
+    "homepage": "https://github.com/renatonolo/OpenPDV-API#readme",
+    "dependencies": {
+        "restify": "4.0.3",
+        "restify-routes": "0.1.2",
+        "mysql": "2.10.2",
+        "node-uuid": "1.4.7"
+    }
+}
